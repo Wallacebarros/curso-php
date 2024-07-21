@@ -1,4 +1,13 @@
-<?php 
-echo 'texto no bloco na saida echo';
-print '<h1> texto na saida print</h1>';
-?>
+<h1> Meu index </h1>
+
+<?php
+
+//comentario em linha 1
+
+#comentario em linha 2
+
+/*
+comentario
+em
+bloco
+*/
