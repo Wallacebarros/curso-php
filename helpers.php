@@ -1,3 +1,5 @@
 <?php
-echo 'arquivo de funções';
-?>
+function hello($text)
+{
+    return "Hello $text !!!";
+}
