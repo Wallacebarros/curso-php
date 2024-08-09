@@ -1,0 +1,20 @@
+{
+    "name": "wallace/curso-php",
+    "autoload": {
+        "psr-4": {
+            "system\\": "src/system/"
+        },
+        "files": [
+            "src/system/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "WallaceBarros",
+            "email": "w.wallacebarros.cruz@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4"
+    }
+}

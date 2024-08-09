@@ -1,5 +1,7 @@
 <?php
 
+namespace system\classes;
+
 class Menssagem
 {
     private string $texto;
