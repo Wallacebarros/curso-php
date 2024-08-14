@@ -1,11 +1,18 @@
 <?php
-
 namespace system\controller;
 
-class SiteController
-{
-    public function index():void
-    {
-        echo"test";
-    }
+use system\controller\Controller;
+ 
+class SiteController extends Controller{
+
+  public function __construct()
+  {
+    parent::__construct('templates/site/views');
+  }
+
+  public function index():void{
+    echo $this->template->renderizar('index.html', [
+      'title'=>'Title test'
+    ]);
+  }
 }
